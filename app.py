@@ -7,7 +7,7 @@ csrf = CSRFProtect(app)
 
 @app.route("/")
 def pagina_inicial():
-    return "Utilizando git flow"
+    return "Utilizando removendo mensagem do git flow"
 
 if __name__ == '__main__':
     app.run()
