@@ -7,7 +7,7 @@ csrf = CSRFProtect(app)
 
 @app.route("/")
 def pagina_inicial():
-    return "Nova mensagem no devops"
+    return "Utilizando git flow"
 
 if __name__ == '__main__':
     app.run()
